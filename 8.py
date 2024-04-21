@@ -1,8 +1,8 @@
 import numpy as np 
 N=3
 
-A = np.array([[1, 5, 1], [4, -1, 1], [1, 6, 52]])
-B = np.array([24, 69, 291])
+A = np.array([[1, 5, 1], [4, -1, 1], [19, 6, 52]])
+B = np.array([24, 15, 707])
 
 
 x = np.linalg.inv(A).dot(B)
